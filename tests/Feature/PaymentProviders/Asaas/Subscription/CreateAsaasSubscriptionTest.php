@@ -8,7 +8,7 @@ use App\Services\PaymentGateway\Providers\Asaas\Subscription\Enums\AsaasBillingC
 use App\Services\PaymentGateway\Utils\Trial;
 
 describe('Create Asaas Subscription', function () {
-    
+
     it('can not create a subscription without a customer', function () {
         // Arrange
         $subscription = [
@@ -21,7 +21,7 @@ describe('Create Asaas Subscription', function () {
         ];
 
         // Act
-        expect(fn() => AsaasSubscription::create($subscription))
+        expect(fn () => AsaasSubscription::create($subscription))
             ->toThrow(InvalidArgumentException::class);
     });
 
@@ -54,7 +54,7 @@ describe('Create Asaas Subscription', function () {
         ];
 
         // Act & Assert
-        expect(fn() => AsaasCustomer::create($invalidCustomerData))
+        expect(fn () => AsaasCustomer::create($invalidCustomerData))
             ->toThrow(InvalidArgumentException::class);
     });
 });

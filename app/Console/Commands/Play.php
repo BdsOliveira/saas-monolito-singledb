@@ -8,7 +8,6 @@ use App\Services\PaymentGateway\Providers\Asaas\Subscription\Concerns\AsaasSubsc
 use App\Services\PaymentGateway\Providers\Asaas\Subscription\Enums\AsaasBilingTypesEnum;
 use App\Services\PaymentGateway\Providers\Asaas\Subscription\Enums\AsaasBillingCycleEnum;
 use App\Services\PaymentGateway\Utils\Trial;
-use DateTime;
 use Illuminate\Console\Command;
 
 class Play extends Command
