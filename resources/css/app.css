@@ -4,17 +4,16 @@
 
 @plugin "daisyui";
 
-
 @plugin "daisyui/theme" {
-    name: "dancinginferno";
+    name: 'dancinginferno';
     default: false;
     prefersdark: false;
-    color-scheme: "light";
+    color-scheme: 'light';
     --color-base-100: oklch(98% 0.003 247.858);
     --color-base-200: oklch(96% 0.007 247.896);
     --color-base-300: oklch(92% 0.013 255.508);
     --color-base-content: oklch(20% 0.042 265.755);
-    --color-primary: oklch(39% 0.195 277.366);
+    --color-primary: oklch(48% 0.243 264.376);
     --color-primary-content: oklch(96% 0.016 293.756);
     --color-secondary: oklch(0% 0 0);
     --color-secondary-content: oklch(100% 0 0);
@@ -38,5 +37,4 @@
     --border: 1.5px;
     --depth: 0;
     --noise: 1;
-  }
-
+}
