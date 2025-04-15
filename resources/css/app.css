@@ -38,3 +38,38 @@
     --depth: 0;
     --noise: 1;
 }
+
+@plugin "daisyui/theme" {
+    name: 'aurora';
+    default: false;
+    prefersdark: false;
+    color-scheme: 'light';
+    --color-base-100: oklch(97% 0.014 308.299);
+    --color-base-200: oklch(94% 0.033 307.174);
+    --color-base-300: oklch(90% 0.063 306.703);
+    --color-base-content: oklch(38% 0.176 304.987);
+    --color-primary: oklch(80% 0.105 251.813);
+    --color-primary-content: oklch(28% 0.091 267.935);
+    --color-secondary: oklch(81% 0.111 293.571);
+    --color-secondary-content: oklch(28% 0.141 291.089);
+    --color-accent: oklch(78% 0.115 274.713);
+    --color-accent-content: oklch(25% 0.09 281.288);
+    --color-neutral: oklch(55% 0.288 302.321);
+    --color-neutral-content: oklch(97% 0.014 308.299);
+    --color-info: oklch(71% 0.143 215.221);
+    --color-info-content: oklch(98% 0.019 200.873);
+    --color-success: oklch(72% 0.219 149.579);
+    --color-success-content: oklch(98% 0.018 155.826);
+    --color-warning: oklch(76% 0.188 70.08);
+    --color-warning-content: oklch(98% 0.022 95.277);
+    --color-error: oklch(65% 0.241 354.308);
+    --color-error-content: oklch(97% 0.014 343.198);
+    --radius-selector: 2rem;
+    --radius-field: 0.5rem;
+    --radius-box: 1rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 0;
+    --noise: 1;
+}
